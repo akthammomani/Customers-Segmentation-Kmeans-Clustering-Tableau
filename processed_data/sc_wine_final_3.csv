@@ -1,0 +1,325 @@
+customer_name,cluster,offer_id,n,campaign,varietal,min_qty,discount,origin,past_peak
+Smith,2,2,1,January,Pinot Noir,72,17,France,False
+Smith,2,24,1,September,Pinot Noir,6,34,Italy,False
+Rodriguez,2,2,1,January,Pinot Noir,72,17,France,False
+Rodriguez,2,26,1,October,Pinot Noir,144,83,Australia,False
+Martin,0,2,1,January,Pinot Noir,72,17,France,False
+Martin,0,28,1,November,Cabernet Sauvignon,12,56,France,True
+Martin,0,11,1,May,Champagne,72,85,France,False
+Jackson,0,2,1,January,Pinot Noir,72,17,France,False
+Jackson,0,22,1,August,Champagne,72,63,France,False
+Jackson,0,15,1,June,Cabernet Sauvignon,144,19,Italy,False
+Jackson,0,1,1,January,Malbec,72,56,France,False
+Jackson,0,11,1,May,Champagne,72,85,France,False
+Campbell,2,2,1,January,Pinot Noir,72,17,France,False
+Campbell,2,24,1,September,Pinot Noir,6,34,Italy,False
+Campbell,2,26,1,October,Pinot Noir,144,83,Australia,False
+Mitchell,0,2,1,January,Pinot Noir,72,17,France,False
+Mitchell,0,1,1,January,Malbec,72,56,France,False
+Peterson,0,2,1,January,Pinot Noir,72,17,France,False
+Peterson,0,26,1,October,Pinot Noir,144,83,Australia,False
+Peterson,0,10,1,April,Prosecco,72,52,California,False
+Peterson,0,23,1,September,Chardonnay,144,39,South Africa,False
+Peterson,0,1,1,January,Malbec,72,56,France,False
+Peterson,0,27,1,October,Champagne,72,88,New Zealand,False
+Bell,2,2,1,January,Pinot Noir,72,17,France,False
+Bell,2,24,1,September,Pinot Noir,6,34,Italy,False
+Bell,2,17,1,July,Pinot Noir,12,47,Germany,False
+Bell,2,26,1,October,Pinot Noir,144,83,Australia,False
+Cox,2,2,1,January,Pinot Noir,72,17,France,False
+Cox,2,24,1,September,Pinot Noir,6,34,Italy,False
+Cox,2,17,1,July,Pinot Noir,12,47,Germany,False
+Cox,2,26,1,October,Pinot Noir,144,83,Australia,False
+Fisher,0,2,1,January,Pinot Noir,72,17,France,False
+Fisher,0,22,1,August,Champagne,72,63,France,False
+Fisher,0,31,1,December,Champagne,72,89,France,False
+Fisher,0,30,1,December,Malbec,6,54,France,False
+Fisher,0,28,1,November,Cabernet Sauvignon,12,56,France,True
+Fisher,0,1,1,January,Malbec,72,56,France,False
+Fisher,0,11,1,May,Champagne,72,85,France,False
+Johnson,2,24,1,September,Pinot Noir,6,34,Italy,False
+Johnson,2,17,1,July,Pinot Noir,12,47,Germany,False
+Johnson,2,26,1,October,Pinot Noir,144,83,Australia,False
+Anderson,2,24,1,September,Pinot Noir,6,34,Italy,False
+Anderson,2,26,1,October,Pinot Noir,144,83,Australia,False
+Moore,2,24,1,September,Pinot Noir,6,34,Italy,False
+Moore,2,17,1,July,Pinot Noir,12,47,Germany,False
+Phillips,2,24,1,September,Pinot Noir,6,34,Italy,False
+Phillips,2,17,1,July,Pinot Noir,12,47,Germany,False
+Flores,2,24,1,September,Pinot Noir,6,34,Italy,False
+Flores,2,17,1,July,Pinot Noir,12,47,Germany,False
+Morris,2,24,1,September,Pinot Noir,6,34,Italy,False
+Morris,2,17,1,July,Pinot Noir,12,47,Germany,False
+Morris,2,26,1,October,Pinot Noir,144,83,Australia,False
+Cook,2,24,1,September,Pinot Noir,6,34,Italy,False
+Cook,2,26,1,October,Pinot Noir,144,83,Australia,False
+Jenkins,2,24,1,September,Pinot Noir,6,34,Italy,False
+Jenkins,2,26,1,October,Pinot Noir,144,83,Australia,False
+Thomas,0,26,1,October,Pinot Noir,144,83,Australia,False
+Thomas,0,14,1,June,Merlot,72,64,Chile,False
+Thomas,0,1,1,January,Malbec,72,56,France,False
+Thomas,0,4,1,February,Champagne,72,48,France,True
+Thomas,0,9,1,April,Chardonnay,144,57,Chile,False
+Thomas,0,11,1,May,Champagne,72,85,France,False
+Sanchez,0,26,1,October,Pinot Noir,144,83,Australia,False
+Sanchez,0,22,1,August,Champagne,72,63,France,False
+Sanchez,0,14,1,June,Merlot,72,64,Chile,False
+Sanchez,0,15,1,June,Cabernet Sauvignon,144,19,Italy,False
+Sanchez,0,4,1,February,Champagne,72,48,France,True
+Sanchez,0,5,1,February,Cabernet Sauvignon,144,44,New Zealand,True
+Sanchez,0,20,1,August,Cabernet Sauvignon,72,82,Italy,False
+Gray,0,26,1,October,Pinot Noir,144,83,Australia,False
+Gray,0,12,1,May,Prosecco,72,83,Australia,False
+Gray,0,16,1,June,Merlot,72,88,California,False
+Sanders,0,26,1,October,Pinot Noir,144,83,Australia,False
+Sanders,0,6,1,March,Prosecco,144,86,Chile,False
+Sanders,0,25,1,October,Cabernet Sauvignon,72,59,Oregon,True
+Sanders,0,1,1,January,Malbec,72,56,France,False
+Sanders,0,4,1,February,Champagne,72,48,France,True
+Sanders,0,9,1,April,Chardonnay,144,57,Chile,False
+Sanders,0,11,1,May,Champagne,72,85,France,False
+Sanders,0,5,1,February,Cabernet Sauvignon,144,44,New Zealand,True
+Sanders,0,20,1,August,Cabernet Sauvignon,72,82,Italy,False
+Russell,2,26,1,October,Pinot Noir,144,83,Australia,False
+Williams,0,18,1,July,Espumante,6,50,Oregon,False
+Williams,0,22,1,August,Champagne,72,63,France,False
+Williams,0,31,1,December,Champagne,72,89,France,False
+Taylor,1,18,1,July,Espumante,6,50,Oregon,False
+Taylor,1,7,1,March,Prosecco,6,40,Australia,True
+Taylor,1,29,1,November,Pinot Grigio,6,87,France,False
+Taylor,1,30,1,December,Malbec,6,54,France,False
+Walker,1,18,1,July,Espumante,6,50,Oregon,False
+Walker,1,29,1,November,Pinot Grigio,6,87,France,False
+Perez,1,18,1,July,Espumante,6,50,Oregon,False
+Perez,1,30,1,December,Malbec,6,54,France,False
+King,1,18,1,July,Espumante,6,50,Oregon,False
+King,1,7,1,March,Prosecco,6,40,Australia,True
+King,1,29,1,November,Pinot Grigio,6,87,France,False
+King,1,13,1,May,Merlot,6,43,Chile,False
+Adams,1,18,1,July,Espumante,6,50,Oregon,False
+Adams,1,29,1,November,Pinot Grigio,6,87,France,False
+Adams,1,30,1,December,Malbec,6,54,France,False
+Hill,1,18,1,July,Espumante,6,50,Oregon,False
+Hill,1,30,1,December,Malbec,6,54,France,False
+Hill,1,8,1,March,Espumante,6,45,South Africa,False
+Hill,1,13,1,May,Merlot,6,43,Chile,False
+Rivera,1,18,1,July,Espumante,6,50,Oregon,False
+Rivera,1,7,1,March,Prosecco,6,40,Australia,True
+James,1,18,1,July,Espumante,6,50,Oregon,False
+James,1,7,1,March,Prosecco,6,40,Australia,True
+James,1,30,1,December,Malbec,6,54,France,False
+James,1,8,1,March,Espumante,6,45,South Africa,False
+James,1,13,1,May,Merlot,6,43,Chile,False
+Myers,1,18,1,July,Espumante,6,50,Oregon,False
+Myers,1,30,1,December,Malbec,6,54,France,False
+Ross,1,18,1,July,Espumante,6,50,Oregon,False
+Ross,1,21,1,August,Champagne,12,50,California,False
+Sullivan,1,18,1,July,Espumante,6,50,Oregon,False
+Sullivan,1,8,1,March,Espumante,6,45,South Africa,False
+Sullivan,1,13,1,May,Merlot,6,43,Chile,False
+Gutierrez,1,18,1,July,Espumante,6,50,Oregon,False
+Gutierrez,1,8,1,March,Espumante,6,45,South Africa,False
+Gutierrez,1,6,1,March,Prosecco,144,86,Chile,False
+Gutierrez,1,10,1,April,Prosecco,72,52,California,False
+Perry,1,18,1,July,Espumante,6,50,Oregon,False
+Perry,1,29,1,November,Pinot Grigio,6,87,France,False
+Perry,1,30,1,December,Malbec,6,54,France,False
+Perry,1,8,1,March,Espumante,6,45,South Africa,False
+Miller,0,22,1,August,Champagne,72,63,France,False
+Miller,0,31,1,December,Champagne,72,89,France,False
+Miller,0,6,1,March,Prosecco,144,86,Chile,False
+Miller,0,10,1,April,Prosecco,72,52,California,False
+Miller,0,14,1,June,Merlot,72,64,Chile,False
+Miller,0,15,1,June,Cabernet Sauvignon,144,19,Italy,False
+Miller,0,23,1,September,Chardonnay,144,39,South Africa,False
+Davis,0,22,1,August,Champagne,72,63,France,False
+Davis,0,12,1,May,Prosecco,72,83,Australia,False
+Davis,0,25,1,October,Cabernet Sauvignon,72,59,Oregon,True
+White,0,22,1,August,Champagne,72,63,France,False
+White,0,30,1,December,Malbec,6,54,France,False
+White,0,14,1,June,Merlot,72,64,Chile,False
+White,0,25,1,October,Cabernet Sauvignon,72,59,Oregon,True
+Lee,0,22,1,August,Champagne,72,63,France,False
+Lee,0,6,1,March,Prosecco,144,86,Chile,False
+Lee,0,4,1,February,Champagne,72,48,France,True
+Lee,0,27,1,October,Champagne,72,88,New Zealand,False
+Lee,0,3,1,February,Espumante,144,32,Oregon,True
+Harris,0,22,1,August,Champagne,72,63,France,False
+Harris,0,7,1,March,Prosecco,6,40,Australia,True
+Harris,0,6,1,March,Prosecco,144,86,Chile,False
+Harris,0,4,1,February,Champagne,72,48,France,True
+Harris,0,27,1,October,Champagne,72,88,New Zealand,False
+Harris,0,19,1,July,Champagne,12,66,Germany,False
+Hall,0,22,1,August,Champagne,72,63,France,False
+Hall,0,11,1,May,Champagne,72,85,France,False
+Young,0,22,1,August,Champagne,72,63,France,False
+Young,0,31,1,December,Champagne,72,89,France,False
+Young,0,6,1,March,Prosecco,144,86,Chile,False
+Young,0,15,1,June,Cabernet Sauvignon,144,19,Italy,False
+Young,0,9,1,April,Chardonnay,144,57,Chile,False
+Young,0,32,1,December,Cabernet Sauvignon,72,45,Germany,True
+Evans,0,22,1,August,Champagne,72,63,France,False
+Evans,0,27,1,October,Champagne,72,88,New Zealand,False
+Rogers,0,22,1,August,Champagne,72,63,France,False
+Rogers,0,7,1,March,Prosecco,6,40,Australia,True
+Rogers,0,8,1,March,Espumante,6,45,South Africa,False
+Rogers,0,3,1,February,Espumante,144,32,Oregon,True
+Rogers,0,19,1,July,Champagne,12,66,Germany,False
+Rogers,0,21,1,August,Champagne,12,50,California,False
+Howard,0,22,1,August,Champagne,72,63,France,False
+Howard,0,12,1,May,Prosecco,72,83,Australia,False
+Howard,0,11,1,May,Champagne,72,85,France,False
+Richardson,0,22,1,August,Champagne,72,63,France,False
+Richardson,0,6,1,March,Prosecco,144,86,Chile,False
+Richardson,0,3,1,February,Espumante,144,32,Oregon,True
+Brooks,0,22,1,August,Champagne,72,63,France,False
+Brooks,0,8,1,March,Espumante,6,45,South Africa,False
+Brooks,0,11,1,May,Champagne,72,85,France,False
+Brooks,0,3,1,February,Espumante,144,32,Oregon,True
+Price,0,22,1,August,Champagne,72,63,France,False
+Price,0,31,1,December,Champagne,72,89,France,False
+Price,0,30,1,December,Malbec,6,54,France,False
+Price,0,1,1,January,Malbec,72,56,France,False
+Foster,0,22,1,August,Champagne,72,63,France,False
+Foster,0,14,1,June,Merlot,72,64,Chile,False
+Foster,0,23,1,September,Chardonnay,144,39,South Africa,False
+Foster,0,1,1,January,Malbec,72,56,France,False
+Foster,0,9,1,April,Chardonnay,144,57,Chile,False
+Morales,0,22,1,August,Champagne,72,63,France,False
+Morales,0,31,1,December,Champagne,72,89,France,False
+Morales,0,7,1,March,Prosecco,6,40,Australia,True
+Morales,0,8,1,March,Espumante,6,45,South Africa,False
+Morales,0,6,1,March,Prosecco,144,86,Chile,False
+Morales,0,19,1,July,Champagne,12,66,Germany,False
+Butler,0,22,1,August,Champagne,72,63,France,False
+Butler,0,30,1,December,Malbec,6,54,France,False
+Butler,0,28,1,November,Cabernet Sauvignon,12,56,France,True
+Butler,0,1,1,January,Malbec,72,56,France,False
+Butler,0,4,1,February,Champagne,72,48,France,True
+Barnes,0,22,1,August,Champagne,72,63,France,False
+Barnes,0,31,1,December,Champagne,72,89,France,False
+Barnes,0,10,1,April,Prosecco,72,52,California,False
+Barnes,0,21,1,August,Champagne,12,50,California,False
+Gonzalez,0,31,1,December,Champagne,72,89,France,False
+Gonzalez,0,9,1,April,Chardonnay,144,57,Chile,False
+Clark,0,31,1,December,Champagne,72,89,France,False
+Clark,0,28,1,November,Cabernet Sauvignon,12,56,France,True
+Clark,0,4,1,February,Champagne,72,48,France,True
+Clark,0,11,1,May,Champagne,72,85,France,False
+Baker,0,31,1,December,Champagne,72,89,France,False
+Baker,0,7,1,March,Prosecco,6,40,Australia,True
+Baker,0,10,1,April,Prosecco,72,52,California,False
+Baker,0,19,1,July,Champagne,12,66,Germany,False
+Nelson,0,31,1,December,Champagne,72,89,France,False
+Nelson,0,8,1,March,Espumante,6,45,South Africa,False
+Nelson,0,4,1,February,Champagne,72,48,France,True
+Nelson,0,3,1,February,Espumante,144,32,Oregon,True
+Roberts,0,31,1,December,Champagne,72,89,France,False
+Turner,0,31,1,December,Champagne,72,89,France,False
+Turner,0,6,1,March,Prosecco,144,86,Chile,False
+Turner,0,4,1,February,Champagne,72,48,France,True
+Turner,0,27,1,October,Champagne,72,88,New Zealand,False
+Parker,0,31,1,December,Champagne,72,89,France,False
+Parker,0,29,1,November,Pinot Grigio,6,87,France,False
+Parker,0,11,1,May,Champagne,72,85,France,False
+Parker,0,16,1,June,Merlot,72,88,California,False
+Parker,0,20,1,August,Cabernet Sauvignon,72,82,Italy,False
+Nguyen,0,31,1,December,Champagne,72,89,France,False
+Nguyen,0,19,1,July,Champagne,12,66,Germany,False
+Kelly,0,31,1,December,Champagne,72,89,France,False
+Kelly,0,6,1,March,Prosecco,144,86,Chile,False
+Kelly,0,32,1,December,Cabernet Sauvignon,72,45,Germany,True
+Kelly,0,20,1,August,Cabernet Sauvignon,72,82,Italy,False
+Wood,0,31,1,December,Champagne,72,89,France,False
+Wood,0,10,1,April,Prosecco,72,52,California,False
+Wood,0,14,1,June,Merlot,72,64,Chile,False
+Wood,0,1,1,January,Malbec,72,56,France,False
+Brown,1,7,1,March,Prosecco,6,40,Australia,True
+Brown,1,29,1,November,Pinot Grigio,6,87,France,False
+Brown,1,30,1,December,Malbec,6,54,France,False
+Lewis,1,7,1,March,Prosecco,6,40,Australia,True
+Lewis,1,30,1,December,Malbec,6,54,France,False
+Lewis,1,8,1,March,Espumante,6,45,South Africa,False
+Robinson,1,7,1,March,Prosecco,6,40,Australia,True
+Robinson,1,29,1,November,Pinot Grigio,6,87,France,False
+Green,1,7,1,March,Prosecco,6,40,Australia,True
+Carter,1,7,1,March,Prosecco,6,40,Australia,True
+Carter,1,29,1,November,Pinot Grigio,6,87,France,False
+Carter,1,30,1,December,Malbec,6,54,France,False
+Carter,1,13,1,May,Merlot,6,43,Chile,False
+Murphy,1,7,1,March,Prosecco,6,40,Australia,True
+Murphy,1,12,1,May,Prosecco,72,83,Australia,False
+Bailey,1,7,1,March,Prosecco,6,40,Australia,True
+Bailey,1,30,1,December,Malbec,6,54,France,False
+Diaz,1,7,1,March,Prosecco,6,40,Australia,True
+Diaz,1,29,1,November,Pinot Grigio,6,87,France,False
+Diaz,1,30,1,December,Malbec,6,54,France,False
+Diaz,1,8,1,March,Espumante,6,45,South Africa,False
+Watson,1,7,1,March,Prosecco,6,40,Australia,True
+Watson,1,29,1,November,Pinot Grigio,6,87,France,False
+Hughes,1,7,1,March,Prosecco,6,40,Australia,True
+Hughes,1,29,1,November,Pinot Grigio,6,87,France,False
+Hughes,1,30,1,December,Malbec,6,54,France,False
+Hughes,1,8,1,March,Espumante,6,45,South Africa,False
+Hughes,1,13,1,May,Merlot,6,43,Chile,False
+Long,1,7,1,March,Prosecco,6,40,Australia,True
+Long,1,10,1,April,Prosecco,72,52,California,False
+Long,1,3,1,February,Espumante,144,32,Oregon,True
+Hernandez,1,29,1,November,Pinot Grigio,6,87,France,False
+Hernandez,1,28,1,November,Cabernet Sauvignon,12,56,France,True
+Stewart,1,29,1,November,Pinot Grigio,6,87,France,False
+Stewart,1,30,1,December,Malbec,6,54,France,False
+Stewart,1,8,1,March,Espumante,6,45,South Africa,False
+Morgan,1,29,1,November,Pinot Grigio,6,87,France,False
+Morgan,1,8,1,March,Espumante,6,45,South Africa,False
+Bennett,1,29,1,November,Pinot Grigio,6,87,France,False
+Bennett,1,8,1,March,Espumante,6,45,South Africa,False
+Cruz,1,29,1,November,Pinot Grigio,6,87,France,False
+Cruz,1,30,1,December,Malbec,6,54,France,False
+Wilson,1,30,1,December,Malbec,6,54,France,False
+Wilson,1,8,1,March,Espumante,6,45,South Africa,False
+Thompson,0,30,1,December,Malbec,6,54,France,False
+Thompson,0,25,1,October,Cabernet Sauvignon,72,59,Oregon,True
+Thompson,0,9,1,April,Chardonnay,144,57,Chile,False
+Thompson,0,16,1,June,Merlot,72,88,California,False
+Collins,1,30,1,December,Malbec,6,54,France,False
+Collins,1,11,1,May,Champagne,72,85,France,False
+Jones,0,8,1,March,Espumante,6,45,South Africa,False
+Torres,0,8,1,March,Espumante,6,45,South Africa,False
+Edwards,0,8,1,March,Espumante,6,45,South Africa,False
+Edwards,0,27,1,October,Champagne,72,88,New Zealand,False
+Ortiz,0,8,1,March,Espumante,6,45,South Africa,False
+Wright,0,6,1,March,Prosecco,144,86,Chile,False
+Wright,0,4,1,February,Champagne,72,48,France,True
+Wright,0,27,1,October,Champagne,72,88,New Zealand,False
+Wright,0,21,1,August,Champagne,12,50,California,False
+Scott,0,6,1,March,Prosecco,144,86,Chile,False
+Scott,0,14,1,June,Merlot,72,64,Chile,False
+Scott,0,23,1,September,Chardonnay,144,39,South Africa,False
+Garcia,0,14,1,June,Merlot,72,64,Chile,False
+Garcia,0,15,1,June,Cabernet Sauvignon,144,19,Italy,False
+Reed,0,14,1,June,Merlot,72,64,Chile,False
+Reed,0,5,1,February,Cabernet Sauvignon,144,44,New Zealand,True
+Lopez,0,15,1,June,Cabernet Sauvignon,144,19,Italy,False
+Lopez,0,9,1,April,Chardonnay,144,57,Chile,False
+Lopez,0,11,1,May,Champagne,72,85,France,False
+Lopez,0,16,1,June,Merlot,72,88,California,False
+Lopez,0,27,1,October,Champagne,72,88,New Zealand,False
+Reyes,0,23,1,September,Chardonnay,144,39,South Africa,False
+Reyes,0,9,1,April,Chardonnay,144,57,Chile,False
+Martinez,0,12,1,May,Prosecco,72,83,Australia,False
+Martinez,0,25,1,October,Cabernet Sauvignon,72,59,Oregon,True
+Martinez,0,28,1,November,Cabernet Sauvignon,12,56,France,True
+Gomez,0,25,1,October,Cabernet Sauvignon,72,59,Oregon,True
+Gomez,0,11,1,May,Champagne,72,85,France,False
+Gomez,0,32,1,December,Cabernet Sauvignon,72,45,Germany,True
+Gomez,0,20,1,August,Cabernet Sauvignon,72,82,Italy,False
+Cooper,0,4,1,February,Champagne,72,48,France,True
+Cooper,0,16,1,June,Merlot,72,88,California,False
+Cooper,0,32,1,December,Cabernet Sauvignon,72,45,Germany,True
+Cooper,0,20,1,August,Cabernet Sauvignon,72,82,Italy,False
+Ward,0,4,1,February,Champagne,72,48,France,True
+Allen,0,9,1,April,Chardonnay,144,57,Chile,False
+Allen,0,27,1,October,Champagne,72,88,New Zealand,False
+Ramirez,0,9,1,April,Chardonnay,144,57,Chile,False
+Powell,0,5,1,February,Cabernet Sauvignon,144,44,New Zealand,True
