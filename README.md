@@ -201,6 +201,13 @@ distances</td>
 
 [Source](http://scikit-learn.org/stable/modules/clustering.html)
 
+Affinity propagation Clustering        |  Agglomerative clustering
+:-------------------------:|:-------------------------:
+![Affinity](https://user-images.githubusercontent.com/67468718/108196201-aee85380-70cd-11eb-9e07-78a9ec650491.JPG)| ![agglomerative](https://user-images.githubusercontent.com/67468718/108196202-aee85380-70cd-11eb-9b12-cbc1a850e13c.JPG)
+
+Spectral clustering Clustering       |  Density-Based Spatial Clustering of Applications with Noise
+:-------------------------:|:-------------------------:
+![spectral](https://user-images.githubusercontent.com/67468718/108196208-af80ea00-70cd-11eb-8bfd-f52137bd647d.JPG) | ![DBSCAN](https://user-images.githubusercontent.com/67468718/108196205-af80ea00-70cd-11eb-98b4-e09efc6b0fee.JPG)
 
 
 
