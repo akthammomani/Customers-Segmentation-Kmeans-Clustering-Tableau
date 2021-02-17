@@ -34,6 +34,10 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
   * Choosing  𝐾 : The Elbow Method:
     * **Distortion:** It is calculated as the average of the squared distances from the cluster centers of the respective clusters. Typically, **the Euclidean distance metric is used.**
 
+<p align="center">
+  <img width="1000" height="400" src="https://user-images.githubusercontent.com/67468718/108182880-59587a80-70be-11eb-8b28-222a1f0ad928.JPG">
+</p>
+
 ![Distortion](https://user-images.githubusercontent.com/67468718/108182880-59587a80-70be-11eb-8b28-222a1f0ad928.JPG)
 
     * **Inertia:** It is the sum of squared distances of samples to their closest cluster center. Typically, **inertia_ attribute from kmeans is used.**
