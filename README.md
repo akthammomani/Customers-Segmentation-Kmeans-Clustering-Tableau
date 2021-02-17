@@ -123,6 +123,85 @@ k-means is only one of a ton of clustering algorithms. Below is a brief descript
 How do their results compare? Which performs the best? Tell a story why you think it performs the best.</p>
 
 
+<table border="1">
+<colgroup>
+<col width="15%" />
+<col width="16%" />
+<col width="20%" />
+<col width="27%" />
+<col width="22%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th>Method name</th>
+<th>Parameters</th>
+<th>Scalability</th>
+<th>Use Case</th>
+<th>Geometry (metric used)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>K-Means</span></a></td>
+<td>number of clusters</td>
+<td>Very large<span class="pre">n_samples</span>, medium <span class="pre">n_clusters</span> with
+MiniBatch code</td>
+<td>General-purpose, even cluster size, flat geometry, not too many clusters</td>
+<td>Distances between points</td>
+</tr>
+<tr><td>Affinity propagation</td>
+<td>damping, sample preference</td>
+<td>Not scalable with n_samples</td>
+<td>Many clusters, uneven cluster size, non-flat geometry</td>
+<td>Graph distance (e.g. nearest-neighbor graph)</td>
+</tr>
+<tr><td>Mean-shift</td>
+<td>bandwidth</td>
+<td>Not scalable with <span class="pre">n_samples</span></td>
+<td>Many clusters, uneven cluster size, non-flat geometry</td>
+<td>Distances between points</td>
+</tr>
+<tr><td>Spectral clustering</td>
+<td>number of clusters</td>
+<td>Medium <span class="pre">n_samples</span>, small <span class="pre">n_clusters</span></td>
+<td>Few clusters, even cluster size, non-flat geometry</td>
+<td>Graph distance (e.g. nearest-neighbor graph)</td>
+</tr>
+<tr><td>Ward hierarchical clustering</td>
+<td>number of clusters</td>
+<td>Large <span class="pre">n_samples</span> and <span class="pre">n_clusters</span></td>
+<td>Many clusters, possibly connectivity constraints</td>
+<td>Distances between points</td>
+</tr>
+<tr><td>Agglomerative clustering</td>
+<td>number of clusters, linkage type, distance</td>
+<td>Large <span class="pre">n_samples</span> and <span class="pre">n_clusters</span></td>
+<td>Many clusters, possibly connectivity constraints, non Euclidean
+distances</td>
+<td>Any pairwise distance</td>
+</tr>
+<tr><td>DBSCAN</td>
+<td>neighborhood size</td>
+<td>Very large <span class="pre">n_samples</span>, medium <span class="pre">n_clusters</span></td>
+<td>Non-flat geometry, uneven cluster sizes</td>
+<td>Distances between nearest points</td>
+</tr>
+<tr><td>Gaussian mixtures</td>
+<td>many</td>
+<td>Not scalable</td>
+<td>Flat geometry, good for density estimation</td>
+<td>Mahalanobis distances to  centers</td>
+</tr>
+<tr><td>Birch</td>
+<td>branching factor, threshold, optional global clusterer.</td>
+<td>Large <span class="pre">n_clusters</span> and <span class="pre">n_samples</span></td>
+<td>Large dataset, outlier removal, data reduction.</td>
+<td>Euclidean distance between points</td>
+</tr>
+</tbody>
+</table>
+
+[Source](http://scikit-learn.org/stable/modules/clustering.html)
+
+
 
 
 
