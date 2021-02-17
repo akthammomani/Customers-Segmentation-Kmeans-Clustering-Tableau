@@ -27,6 +27,19 @@ The first thing we need is a way to compare customers. To do this, we're going t
   * Merge <code>**df_transactions**</code> & <code>**df_offers**</code> on=<code>**offer_id**</code> 
   * Make a pivot table, to show a matrix with customer names in the row index and offer numbers as columns headers and fill NANs with zeros.
 
+## 4. K-Means Clustering (Choosing K)
+
+Recall that in K-Means Clustering we want to maximize the distance between centroids and minimize the distance between data points and the respective centroid for the cluster they are in. True evaluation for unsupervised learning would require labeled data; however, we can use a variety of intuitive metrics to try to pick the number of clusters K. We will introduce two methods: the Elbow method, the Silhouette method and the gap statistic.
+
+  * Choosing  𝐾 : The Elbow Method:
+    * **Distortion:** It is calculated as the average of the squared distances from the cluster centers of the respective clusters. Typically, **the Euclidean distance metric is used.**
+    * **Inertia:** It is the sum of squared distances of samples to their closest cluster center. Typically, **inertia_ attribute from kmeans is used.**
+    * Lastly, we look at the sum-of-squares error in each cluster against $K$. We compute the distance from each data point to the center of the cluster (centroid) to which the data point was assigned. 
+
+
+
+
+
 
 
 
