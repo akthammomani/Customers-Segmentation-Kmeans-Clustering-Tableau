@@ -5,6 +5,6 @@
 
 
 <p align="center">
-  <img width="660" height="300" src="https://user-images.githubusercontent.com/67468718/108179916-03ce9e80-70bb-11eb-937d-702f5c5151d9.JPG">
+  <img width="900" height="300" src="https://user-images.githubusercontent.com/67468718/108179916-03ce9e80-70bb-11eb-937d-702f5c5151d9.JPG">
 </p>
 
