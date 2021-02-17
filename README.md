@@ -35,6 +35,9 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
     * **Distortion:** It is calculated as the average of the squared distances from the cluster centers of the respective clusters. Typically, **the Euclidean distance metric is used.**
     * **Inertia:** It is the sum of squared distances of samples to their closest cluster center. Typically, **inertia_ attribute from kmeans is used.
     * Lastly, we look at the sum-of-squares error in each cluster against $K$. We compute the distance from each data point to the center of the cluster (centroid) to which the data point was assigned. 
+
+  * Choosing  𝐾 : The Silhouette Method
+    There exists another method that measures how well each datapoint  𝑥𝑖  "fits" its assigned cluster and also how poorly it fits into other clusters. This is a different way of looking at the same objective. Denote  𝑎𝑥𝑖  as the average distance from  𝑥𝑖  to all other points within its own cluster  𝑘 . The lower the value, the better. On the other hand  𝑏𝑥𝑖  is the minimum average distance from  𝑥𝑖  to points in a different cluster, minimized over clusters. That is, compute separately for each cluster the average distance from  𝑥𝑖  to the points within that cluster, and then take the minimum.
  
 <p align="center">
   <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/108182880-59587a80-70be-11eb-8b28-222a1f0ad928.JPG">
