@@ -39,9 +39,7 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
 </p>
      * **Inertia:** It is the sum of squared distances of samples to their closest cluster center. Typically, **inertia_ attribute from kmeans is used.**
     
-<p align="center">
-  <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/108182885-59f11100-70be-11eb-95e0-f302c17df95d.JPG">
-</p>
+
 
     * Lastly, we look at the sum-of-squares error in each cluster against $K$. We compute the distance from each data point to the center of the cluster (centroid) to which the data point was assigned. 
 
