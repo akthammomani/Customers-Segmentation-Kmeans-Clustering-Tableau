@@ -14,7 +14,9 @@ One of these cases, John describes a fictitious wholesale wine business looking 
 
 The dataset contains information on marketing newsletters/e-mail campaigns (e-mail offers sent to customers) and transaction level data from customers. The transactional data shows which offer customers responded to, and what the customer ended up buying. The data is presented as an Excel workbook containing two worksheets. Each worksheet contains a different dataset.
 
-<code>**WineKMC.xlsx sheet 0**</code> We see that the first dataset contains information about each offer such as the month it is in effect and several attributes about the wine that the offer refers to: the variety, minimum quantity, discount, country of origin and whether or not it is past peak. The second dataset in the second worksheet contains transactional data -- which offer each customer responded to.
+We see that the first dataset <code>**WineKMC.xlsx sheet 0**</code>  contains information about each offer such as the month it is in effect and several attributes about the wine that the offer refers to: the variety, minimum quantity, discount, country of origin and whether or not it is past peak. 
+
+The second dataset <code>**WineKMC.xlsx sheet 1**</code> in the second worksheet contains transactional data -- which offer each customer responded to.
 
 
 
