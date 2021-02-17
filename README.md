@@ -71,6 +71,12 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
 </p>
 
 
+## 5. Choosing  𝐾 Summary:
+  * **Elbow Method using Distortion from Scipy** confirms that the <code>**elbow point k=3**</code> so the <code>**best k will be=4**</code> (plot starts descending much more slowly after k=3)
+  * **Elbow Method using Inertia from kmeans** confirms that the <code>**elbow point k=3**</code> so the <code>**best k will be=4**</code> (plot starts descending much more slowly after k=3)
+  * Unfortunately, **Elbow Method using Sum of Squares - SSE** , this plot doesn’t show a real clear “elbow point”, which means it is not straightforward to find the number of clusters using this Sum-of-Squares (SSE) Method. however, from above we can see that <code>k=3 is our most obvious elbow point</code>, Thus <code>best option for K will be 4</code> **(plot starts descending much more slowly after k=3).**
+    
+
 
 
 
