@@ -88,6 +88,21 @@ This is only one use of PCA for dimension reduction. We can also use PCA when we
   <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/108194935-0be30a00-70cc-11eb-8ca1-e494895deeae.JPG">
 </p>
 
+
+## 7. Conclusions and Business Recommendations Powered by ML K-means and Tableau Dashboards
+
+  * <code>**Cluster_0**</code> represents customers who loves both French Red Wine and Sparkling Wine (89% consumes  >= 72 Min Qty) specifically: Cabernet Sauvignon & Champagne.
+  * <code>**Cluster_1**</code> represents customers who loves Sparkling Wine (75% consumes  >= 72 Min Qty) mainly Champagne but in general they enjoys French sparkling Wine.
+  * Customers from both <code>**Cluster_0**</code> & <code>**Cluster_1**</code> (More than 75% of them, consumes >= 72 Min Qty) , they love Cabernet Sauvignon & Champagne  specially if there’s high Discounts since they’re heavy consumers **(Focus group of customers to increase sales by introducing more Discounts on Cabernet Sauvignon & Champagne)**
+  * <code>**Cluster_2**</code> represents customers who are not heavy Wine consumers (Almost  100% of them, consumes  = 6 Min Qty) but still they enjoys French Wine in general (sparkling, Red, and some white). **(Focus group of customers to increase revenue by introducing more wine varieties because these guys are NOT wine specific who are not settled yet and they would try more or new varieties).**
+  * <code>**Cluster_3**</code> represents customers who loves Red Wine specifically Pinot Noir. These guys will buy Pinot Noir regardless if there’s big Discount or not and they don’t care about the origin either. They’re just Pinot Noir lovers!! **(Focus group of customers to increase revenue by increasing Pinot Noir price!!).**
+ 
+![main](https://user-images.githubusercontent.com/67468718/108069843-af72e280-7018-11eb-85bc-0d04f18e9378.JPG)
+![ML_Tableau](https://user-images.githubusercontent.com/67468718/108069846-b0a40f80-7018-11eb-990f-35a9e15c2f5d.JPG) 
+
+
+
+
     
 
 
