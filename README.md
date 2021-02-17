@@ -48,7 +48,9 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
 | 0.51 - 0.7  | A reasonable structure has been found.        |
 | 0.26 - 0.5  | The structure is weak and could be artificial.|
 | < 0.25      | No substantial structure has been found.      |
- 
+
+[Source](http://www.stat.berkeley.edu/~spector/s133/Clus.html)
+
 <p align="center">
   <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/108182880-59587a80-70be-11eb-8b28-222a1f0ad928.JPG">
 </p>
