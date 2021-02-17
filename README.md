@@ -76,6 +76,18 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
   * **Elbow Method using Inertia from kmeans** confirms that the <code>**elbow point k=3**</code> so the <code>**best k will be=4**</code> (plot starts descending much more slowly after k=3)
   * Unfortunately, **Elbow Method using Sum of Squares - SSE** , this plot doesn’t show a real clear “elbow point”, which means it is not straightforward to find the number of clusters using this Sum-of-Squares (SSE) Method. however, from above we can see that <code>k=3 is our most obvious elbow point</code>, Thus <code>best option for K will be 4</code> **(plot starts descending much more slowly after k=3).**
   * Again, The Silhouette Method, there does not appear to be a clear way to find best K in this method, which means it is not straightforward to find the number of clusters using this method. however, from above we can see <code>k=10, 3 and 9 </code>are our best option for now **(Closest to 1 = best Silhouette Score, but clearly Silhouette Scores are relatively small suggesting we have a weak structure!!!)**
+
+
+## 6. Visualizing Clusters using PCA
+
+How do we visualize clusters? If we only had two features, we could likely plot the data as is. But we have 100 data points each containing 32 features (dimensions). Principal Component Analysis (PCA) will help us reduce the dimensionality of our data from 32 to something lower. For a visualization on the coordinate plane, we will use 2 dimensions. In this exercise, we're going to use it to transform our multi-dimensional dataset into a 2 dimensional dataset.
+
+This is only one use of PCA for dimension reduction. We can also use PCA when we want to perform regression but we have a set of highly correlated variables. PCA untangles these correlations into a smaller number of features/predictors all of which are orthogonal (not correlated). PCA is also used to reduce a large set of variables into a much smaller one.
+
+<p align="center">
+  <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/108194935-0be30a00-70cc-11eb-8ca1-e494895deeae.JPG">
+</p>
+
     
 
 
