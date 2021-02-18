@@ -33,8 +33,9 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
 
   * Choosing  𝐾 : The Elbow Method:
     * **Distortion:** It is calculated as the average of the squared distances from the cluster centers of the respective clusters. Typically, **the Euclidean distance metric is used.**
-    * **Inertia:** It is the sum of squared distances of samples to their closest cluster center. Typically, **inertia_ attribute from kmeans is used.
-    * Lastly, we look at the sum-of-squares error in each cluster against $K$. We compute the distance from each data point to the center of the cluster (centroid) to which the data point was assigned. 
+    * **Inertia:** it will be calaculated in two methods:
+     * It is the sum of squared distances of samples to their closest cluster center. Typically, **inertia_ attribute from kmeans is used.**
+     * Lastly, we look at the sum-of-squares error in each cluster against $K$. We compute the distance from each data point to the center of the cluster (centroid) to which the data point was assigned.
 
   * Choosing  𝐾 : The Silhouette Method
     
@@ -74,7 +75,7 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
 ## 5. Choosing  𝐾 Summary:
   * **Elbow Method using Distortion from Scipy** confirms that the <code>**elbow point k=3**</code> so the <code>**best k will be=4**</code> (plot starts descending much more slowly after k=3)
   * **Elbow Method using Inertia from kmeans** confirms that the <code>**elbow point k=3**</code> so the <code>**best k will be=4**</code> (plot starts descending much more slowly after k=3)
-  * Unfortunately, **Elbow Method using Sum of Squares - SSE** , this plot doesn’t show a real clear “elbow point”, which means it is not straightforward to find the number of clusters using this Sum-of-Squares (SSE) Method. however, from above we can see that <code>k=3 is our most obvious elbow point</code>, Thus <code>best option for K will be 4</code> **(plot starts descending much more slowly after k=3).**
+  * **Elbow Method using Sum of Squares - SSE** , confirms that the <code>**elbow point k=3**</code> so the <code>**best k will be=4**</code> (plot starts descending much more slowly after k=3)
   * Again, The Silhouette Method, there does not appear to be a clear way to find best K in this method, which means it is not straightforward to find the number of clusters using this method. however, from above we can see <code>k=10, 3 and 9 </code>are our best option for now **(Closest to 1 = best Silhouette Score, but clearly Silhouette Scores are relatively small suggesting we have a weak structure!!!)**
 
 
