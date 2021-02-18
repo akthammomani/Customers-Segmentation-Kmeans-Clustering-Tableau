@@ -61,7 +61,7 @@ Recall that in K-Means Clustering we want to maximize the distance between centr
 </p>
 
 <p align="center">
-  <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/108182886-5a89a780-70be-11eb-9a92-875d1de81849.JPG">
+  <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/108398526-f48c4580-71cd-11eb-876d-8a31b576f34b.JPG">
 </p>
 
 
