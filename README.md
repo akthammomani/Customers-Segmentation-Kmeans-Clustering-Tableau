@@ -94,37 +94,24 @@ This is only one use of PCA for dimension reduction. We can also use PCA when we
 
 #### Customers Behavior – Unsupervised Machine Learning K-means Clustering (K=4)
 
-**1. “Customer Group 1”**
+  **1. “Customer Group 1”**: Represents customers who loves and appreciates both French Red Wine and Sparkling Wine (89% consumes  >= 72 Min Qty) specifically: <code>**Cabernet Sauvignon & Champagne**</code>.
 
-Represents customers who loves and appreciates both French Red Wine and Sparkling Wine (89% consumes  >= 72 Min Qty) specifically: <code>**Cabernet Sauvignon & Champagne**</code>.
-
-**2. “Customer Group 2”**
-
-Represents customers who loves Sparkling Wine (75% consumes  >= 72 Min Qty) mainly <code>**Champagne**</code> but in general they enjoys French Sparkling Wine.
+  **2. “Customer Group 2”**: Represents customers who loves Sparkling Wine (75% consumes  >= 72 Min Qty) mainly <code>**Champagne**</code> but in general they enjoys French Sparkling Wine.
  
-**3. “Customers from both Group 1 & 2”**
+  **3. “Customers from both Group 1 & 2”**: More than 75% of them who consumes >= 72 Min Qty, love <code>**Cabernet Sauvignon & Champagne**</code>  specially if there’s high Discounts since they’re heavy drinkers.
 
-More than 75% of them who consumes >= 72 Min Qty, love <code>**Cabernet Sauvignon & Champagne**</code>  specially if there’s high Discounts since they’re heavy drinkers.
+  **4. “Customer Group 3”**: Represents customers who are light Wine drinkers (Almost  100% of them, consumes  = 6 Min Qty) but still they appreciates French Wine in general (sparkling, Red, and some white). 
 
-**4. “Customer Group 3”** 
-
-Represents customers who are light Wine drinkers (Almost  100% of them, consumes  = 6 Min Qty) but still they appreciates French Wine in general (sparkling, Red, and some white). 
-
-**5. “Customer Group 4”** 
-
-Represents customers who loves Red Wine specifically <code>**Pinot Noir**</code>. These customer will buy <code>**Pinot Noir**</code> regardless if there’s big Discount or not and they don’t care about the origin either. They’re just <code>**Pinot Noir**</code> lovers!.
+  **5. “Customer Group 4”**: Represents customers who loves Red Wine specifically <code>**Pinot Noir**</code>. These customer will buy <code>**Pinot Noir**</code> regardless if there’s big Discount or not and they don’t care about the origin either. They’re just <code>**Pinot Noir**</code> lovers!.
 
 #### High Yield Segments That’s need our attention for their growth potential 
 
+ 
+  **1. “Customers from both Group 1 & 2”**: Focus group of customers to increase sales by introducing more Discounts on <code>**Cabernet Sauvignon & Champagne**</code>.
 
-**1. “Customers from both Group 1 & 2”**
-Focus group of customers to increase sales by introducing more Discounts on <code>**Cabernet Sauvignon & Champagne**</code>.
+  **2. “Customer Group 3”**: Focus group of customers to increase revenue by introducing more wine varieties because these customers are NOT wine specific who are not settled yet and they would try more or new varieties.
 
-**2. “Customer Group 3”** 
-Focus group of customers to increase revenue by introducing more wine varieties because these customers are NOT wine specific who are not settled yet and they would try more or new varieties.
-
-**3. “Customer Group 4”**
-Focus group of customers to increase revenue by increasing <code>**Pinot Noir**</code> price!.
+  **3. “Customer Group 4”**: Focus group of customers to increase revenue by increasing <code>**Pinot Noir**</code> price!.
 
 
 ![ML_Tableau_v1](https://user-images.githubusercontent.com/67468718/108528307-2235c500-7288-11eb-8b9f-38844acf46ca.JPG)
